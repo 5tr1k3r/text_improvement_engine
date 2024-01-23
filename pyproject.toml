@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "text_improvement_engine"
+version = "0.1.0"
+description = "An ML Trial Task"
+authors = ["Aleksandr Ivashkin <noblemonitor@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10.8"
+nltk = "^3.8.1"
+scikit-learn = "^1.4.0"
+transformers = "^4.37.0"
+torch = "^2.1.2"
+numpy = "^1.26.3"
+PyQt5 = "5.15.10"
+PyQt5-Qt5 = "5.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
